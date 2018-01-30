@@ -28,6 +28,27 @@ myLines [] = []
 myLines ('\n' : xs) = myLines xs
 myLines xs = takeWhile (/= '\n') xs : myLines (dropWhile (/= '\n') xs) 
 
+
+-- Will's solution
+myLinesW :: String -> [String]
+myLinesW "" = []
+myLinesW lines = case line of
+                  "" -> restLines
+                  l -> l : restLines
+  where line = takeWhile (/= '\n') lines
+        restLines = myLinesW $ drop (1 + length line) lines
+
+-- to implement
+
+-- myExplodeW :: String -> [String]
+-- myExplodeW "" = []
+-- myExplodeW lines = case line of
+--                   "" -> restLines
+--                   l -> l : restLines
+--   where line = takeWhile (/= '\n') lines
+--         restLines = myExplodeW $ drop (1 + length line) lines
+
+
 -- More generic function
 myExplode :: Char -> String -> [String]
 myExplode x [] = []
