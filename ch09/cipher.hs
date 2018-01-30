@@ -69,6 +69,10 @@ caesarCaps x = fmap (shiftCharSwitch x)
 -- caesarCaps 7 "Hello World!"  =>  "Olssv Dvysk!"
 -- caesarCaps (-239) "Hello World!"  =>  "Czggj Rjmgy!"
 
-------------
 
--- Todo : unCaesar
+unCeasar :: Functor f => Int -> f Char -> f Char
+unCeasar x = fmap (shiftCharSwitch (-x)) 
+
+-- unCeasar (-239) "Czggj Rjmgy!"   => "Hello World!"
+
+------------
