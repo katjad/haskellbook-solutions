@@ -30,3 +30,5 @@ myLines and more generic myExplode : [poemLines.hs](poemLines.hs)
 [dataChar.hs](dataChar.hs)
 #### Cipher
 [cipher.hs](cipher.hs)
+#### Standard functions
+[standardFunctions.hs](standardFunctions.hs)
