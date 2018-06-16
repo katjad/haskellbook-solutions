@@ -1,0 +1,6 @@
+stack.yaml
+Setup.hs
+.stack-work
+src
+*.cabal
+LICENSE
