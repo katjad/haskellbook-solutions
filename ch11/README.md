@@ -35,6 +35,11 @@
 #### Write foldr for BinaryTree
 [binarytreeFoldr.hs](binarytreeFoldr.hs)
 
-### Vigenere Cipher
+### Chapter Exercises
+
+#### Multiple Choice
+[chapterMultChoice.hs](chapterMultChoice.hs)
+
+#### Vigenere Cipher
 [chapterVigenereCipher.hs](chapterVigenereCipher.hs)
 
