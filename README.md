@@ -10,3 +10,4 @@ Posting some solutions to exercises in [Haskell Programming from first principle
 [Chapter 11](ch11/README.md)      
 [Chapter 15](ch15/README.md)
 
+
