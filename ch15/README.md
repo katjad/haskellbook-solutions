@@ -1,7 +1,7 @@
-## Chapter 10 - Folds
+## Chapter 15 - Monoid, Semigroup
 
 ### Optional Monoid
-[optionalMonoids.hs][optionalMonoids.hs]
+[optionalMonoid.hs][optionalMonoid.hs]
 
 ### Madness
 [madness.hs](madness.hs)

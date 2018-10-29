@@ -35,3 +35,6 @@
 #### Write foldr for BinaryTree
 [binarytreeFoldr.hs](binarytreeFoldr.hs)
 
+### Vigenere Cipher
+[chapterVigenereCipher.hs](chapterVigenereCipher.hs)
+
