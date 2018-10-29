@@ -1,2 +1,0 @@
--- multipleChoice.hs
-

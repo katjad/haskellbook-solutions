@@ -33,5 +33,7 @@ testPreorder =
 testInorder :: IO ()
 testInorder = 
     if inorder testTree == [1, 2, 3]
-        then putStrLn "Inorder fine!"
+        then putStrLn
+
+         "Inorder fine!"
         else putStrLn "Bad news bears."

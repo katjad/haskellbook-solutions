@@ -1,0 +1,19 @@
+-- dogtypes.hs
+
+-- 1. Doggies is a type constructor.
+-- 2. The kind of Doggies :k Doggies
+--		Doggies :: * -> * 		   
+-- 3. The kind of Doggies :k Doggies String
+-- 		Doggies String :: *
+-- 4. The type of Husky 10  :t Husky 10
+--      Husky 10 :: Num a => Doggies a
+-- 5. The type of Husky. :t Husky (10 :: Integer)
+--      Husky (10 :: Integer) :: Doggies Integer 
+-- 6. The type of Mastif "Scooby Doo". :t Mastiff "Scooby Doo"
+--      Mastiff "Scooby Doo" :: Doggie [Char]
+-- 7. There is both a type constructor and a data constructor called DogueDeBordeaux
+--    but they are two different things
+-- 8. Type of DogueDeBordeaux t :: DogueDeBordeaux
+--      DogueDeBordeaux :: doge -> DogueDeBordeaux doge
+-- 9. Type of DogueDeBordeaux "doggie!" t :: DogueDeBordeaux
+--		DogueDeBordeaux "doggie!" :: DogueDeBordeaux [Char]
