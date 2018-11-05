@@ -43,3 +43,6 @@
 #### Vigenere Cipher
 [chapterVigenereCipher.hs](chapterVigenereCipher.hs)
 
+#### asPatterns
+[asPatterns.hs](asPatterns.hs)
+
