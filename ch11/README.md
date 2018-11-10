@@ -46,3 +46,5 @@
 #### asPatterns
 [asPatterns.hs](asPatterns.hs)
 
+#### Language Exercise
+[languageExercise.hs](languageExercise.hs)
