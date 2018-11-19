@@ -49,5 +49,5 @@
 #### Language Exercises
 [languageExercises.hs](languageExercises.hs)
 
-
-
+#### Phone Exercise and Hutton's Razor
+[phoneExercise.hs](phoneExercise.hs)
